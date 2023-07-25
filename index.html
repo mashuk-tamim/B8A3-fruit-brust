@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RedMelon</title>
+    <title>ManGo</title>
     <!-- tailwind and daisyUI cdn -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -12,29 +12,85 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <!-- font awesome kit -->
+    <script src="https://kit.fontawesome.com/ecb685900b.js" crossorigin="anonymous"></script>
 
     <script>
         tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-              }
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        'primary-color': '#F85559',
+                        'title-color': '#121212',
+                    }
+                }
             }
-          }
         }
-      </script>
+    </script>
 
-      <style>
+    <style>
         body {
             font-family: 'Lato', sans-serif;
         }
-      </style>
+    </style>
 
 </head>
 
 <body>
+    <header class="pl-5 pt-5 md:p-10 lg:py-10">
+        <!-- navbar section -->
+        <div class="max-w-screen-lg mx-auto rounded-full navbar bg-base-100 md:bg-primary-color py-4 flex md:flex-row-reverse lg:flex-row justify-between">
+            <!-- navbar left section -->
+            <div class=" hidden md:flex">
+                <ul class="menu menu-horizontal px-1 text-white text-lg">
+                    <li><a>Home</a></li>
+                    <li><a>About Us</a></li>
+                    <li><a>Shop</a></li>
+                    <li><a>All Fruits</a></li>
+                </ul>
+            </div>
+            <!-- navbar middle section -->
+            <div class="flex gap-3">
+                <img src="images/logo.png" alt="logo">
+                <a class="normal-case text-4xl text-title-color md:text-white hover:cursor-pointer">ManGo</a>
+            </div>
+            <!-- navbar right section for mobile -->
+            <div class="navbar-end md:hidden">
+                <div class="dropdown">
+                    <label tabindex="0" class="btn btn-ghost lg:hidden">
+                        <i style="color: grey;" class="fa-solid fa-bars"></i>
+                    </label>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content mt-3 -ml-14 z-[1] p-2 shadow bg-base-100 rounded-box w-28">
+                        <li><a>Home</a></li>
+                        <li><a>About Us</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>All Fruits</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- navbar right section -->
+            <div class=" hidden lg:flex ml-32">
+                <form class="relative" action="">
+                    <input class="block rounded-full py-2 pl-5 pr-16 text-primary-color" type="text" id="search"
+                        placeholder="Search here">
+                    <div>
+                        <button class="absolute top-2 right-5" type="submit"><i class="fa-solid fa-magnifying-glass"
+                                aria-hidden="true"></i></button>
+                    </div>
+                </form>
+            </div>
+        <div></div>
+    </header>
 
+    <main>
+
+    </main>
+
+    <footer>
+
+    </footer>
 </body>
 
 </html>
