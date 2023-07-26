@@ -25,7 +25,7 @@
                         'title-color': '#121212',
                         'text-color': 'rgba(18,18,18,0.60)',
                         // 'gradient-start': '#121212',
-                        'gradient-end': 'rgb(18,18,18,0.1)',
+                        'gradient-end': 'rgba(18,18,18,0.1)',
                     },
                     backgroundImage: {
                         'slide-1': "url('./images/banner1.png')",
@@ -71,8 +71,7 @@
                     <summary class="btn btn-ghost lg:hidden">
                         <i style="color: grey;" class="fa-solid fa-bars"></i>
                     </summary>
-                    <ul
-                        class="menu menu-sm dropdown-content mt-3 -ml-14 z-[1] p-2 shadow bg-base-100 rounded-box w-28">
+                    <ul class="menu menu-sm dropdown-content mt-3 -ml-14 z-[1] p-2 shadow bg-base-100 rounded-box w-28">
                         <li><a>Home</a></li>
                         <li><a>About Us</a></li>
                         <li><a>Shop</a></li>
@@ -97,63 +96,92 @@
         <div class="carousel mt-12 w-full text-center">
             <!-- slide 1 -->
             <div id="slide1" class="carousel-item relative w-full rounded-lg bg-slide-1 bg-cover bg-center">
-                <div class="py-16 md:py-20 lg:py-28 bg-gradient-to-b from-title-color to-gradient-end rounded-lg w-full flex flex-col justify-center items-center bg-cover">
+                <div
+                    class="py-16 md:py-20 lg:py-28 bg-gradient-to-b from-title-color to-gradient-end rounded-lg w-full flex flex-col justify-center items-center bg-cover">
                     <div class="w-3/4">
-                        <h2 class="text-2xl md:text-5xl lg:text-7xl text-white font-extrabold">Exotic tastes at your doorstep</h2>
-                        <p class="text-sm lg:text-xl text-white font-normal lg:font-medium mt-1 lg:mt-6 mb-4 lg:mb-8">We supply highly quality organic products</p>
-                        <button class="bg-primary-color border-none text-sm lg:text-xl text-white font-bold lg:font-extrabold px-4 py-2 lg:px-7 lg:py-4 rounded-md">Shop Now</button>
+                        <h2 class="text-2xl md:text-5xl lg:text-7xl text-white font-extrabold">Exotic tastes at your
+                            doorstep</h2>
+                        <p class="text-sm lg:text-xl text-white font-normal lg:font-medium mt-1 lg:mt-6 mb-4 lg:mb-8">We
+                            supply highly quality organic products</p>
+                        <button
+                            class="bg-primary-color border-none text-sm lg:text-xl text-white font-bold lg:font-extrabold px-4 py-2 lg:px-7 lg:py-4 rounded-md">Shop
+                            Now</button>
                     </div>
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide4" class="btn-sm lg:btn-md flex items-center justify-center btn-circle rounded-full bg-black text-white border-none">❮</a>
-                        <a href="#slide2" class="btn-sm lg:btn-md flex items-center justify-center btn-circle bg-black text-white border-none">❯</a>
+                        <a href="#slide4"
+                            class="btn-sm lg:btn-md flex items-center justify-center btn-circle rounded-full bg-black text-white border-none">❮</a>
+                        <a href="#slide2"
+                            class="btn-sm lg:btn-md flex items-center justify-center btn-circle bg-black text-white border-none">❯</a>
                     </div>
                 </div>
             </div>
             <!-- slide 2 -->
             <div id="slide2" class="carousel-item relative w-full rounded-lg lg:h-auto bg-slide-2 bg-cover bg-center">
-                <div class="py-8 md:py-20 lg:py-28 bg-gradient-to-b from-title-color to-gradient-end rounded-lg w-full flex flex-col justify-center items-center">
+                <div
+                    class="py-8 md:py-20 lg:py-28 bg-gradient-to-b from-title-color to-gradient-end rounded-lg w-full flex flex-col justify-center items-center">
                     <div class="w-3/4">
-                        <h2 class="text-2xl md:text-5xl lg:text-7xl text-white font-extrabold">Exotic tastes at your doorstep</h2>
-                        <p class="text-sm lg:text-xl text-white font-normal lg:font-medium mt-1 lg:mt-6 mb-4 lg:mb-8">We supply highly quality organic products</p>
-                        <button class="bg-primary-color border-none text-sm lg:text-xl text-white font-bold lg:font-extrabold px-4 py-2 lg:px-7 lg:py-4 rounded-md">Shop Now</button>
+                        <h2 class="text-2xl md:text-5xl lg:text-7xl text-white font-extrabold">Exotic tastes at your
+                            doorstep</h2>
+                        <p class="text-sm lg:text-xl text-white font-normal lg:font-medium mt-1 lg:mt-6 mb-4 lg:mb-8">We
+                            supply highly quality organic products</p>
+                        <button
+                            class="bg-primary-color border-none text-sm lg:text-xl text-white font-bold lg:font-extrabold px-4 py-2 lg:px-7 lg:py-4 rounded-md">Shop
+                            Now</button>
                     </div>
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide1" class="btn-sm lg:btn-md flex items-center justify-center btn-circle bg-black text-white border-none">❮</a>
-                        <a href="#slide3" class="btn-sm lg:btn-md flex items-center justify-center btn-circle bg-black text-white border-none">❯</a>
+                        <a href="#slide1"
+                            class="btn-sm lg:btn-md flex items-center justify-center btn-circle bg-black text-white border-none">❮</a>
+                        <a href="#slide3"
+                            class="btn-sm lg:btn-md flex items-center justify-center btn-circle bg-black text-white border-none">❯</a>
                     </div>
                 </div>
             </div>
             <!-- slide 3 -->
             <div id="slide3" class="carousel-item relative w-full rounded-lg lg:h-auto bg-slide-3 bg-cover bg-center">
-                <div class="py-8 md:py-20 lg:py-28 bg-gradient-to-b from-title-color to-gradient-end rounded-lg w-full flex flex-col justify-center items-center">
+                <div
+                    class="py-8 md:py-20 lg:py-28 bg-gradient-to-b from-title-color to-gradient-end rounded-lg w-full flex flex-col justify-center items-center">
                     <div class="w-3/4">
-                        <h2 class="text-2xl md:text-5xl lg:text-7xl text-white font-extrabold">Exotic tastes at your doorstep</h2>
-                        <p class="text-sm lg:text-xl text-white font-normal lg:font-medium mt-1 lg:mt-6 mb-4 lg:mb-8">We supply highly quality organic products</p>
-                        <button class="bg-primary-color border-none text-sm lg:text-xl text-white font-bold lg:font-extrabold px-4 py-2 lg:px-7 lg:py-4 rounded-md">Shop Now</button>
+                        <h2 class="text-2xl md:text-5xl lg:text-7xl text-white font-extrabold">Exotic tastes at your
+                            doorstep</h2>
+                        <p class="text-sm lg:text-xl text-white font-normal lg:font-medium mt-1 lg:mt-6 mb-4 lg:mb-8">We
+                            supply highly quality organic products</p>
+                        <button
+                            class="bg-primary-color border-none text-sm lg:text-xl text-white font-bold lg:font-extrabold px-4 py-2 lg:px-7 lg:py-4 rounded-md">Shop
+                            Now</button>
                     </div>
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide2" class="btn-sm lg:btn-md flex items-center justify-center btn-circle bg-black text-white border-none">❮</a>
-                        <a href="#slide4" class="btn-sm lg:btn-md flex items-center justify-center btn-circle bg-black text-white border-none">❯</a>
+                        <a href="#slide2"
+                            class="btn-sm lg:btn-md flex items-center justify-center btn-circle bg-black text-white border-none">❮</a>
+                        <a href="#slide4"
+                            class="btn-sm lg:btn-md flex items-center justify-center btn-circle bg-black text-white border-none">❯</a>
                     </div>
                 </div>
             </div>
             <!-- slide 4 -->
             <div id="slide4" class="carousel-item relative w-full rounded-lg lg:h-auto bg-slide-4 bg-cover bg-center">
-                <div class="py-8 md:py-20 lg:py-28 bg-gradient-to-b from-title-color to-gradient-end rounded-lg w-full flex flex-col justify-center items-center">
+                <div
+                    class="py-8 md:py-20 lg:py-28 bg-gradient-to-b from-title-color to-gradient-end rounded-lg w-full flex flex-col justify-center items-center">
                     <div class="w-3/4">
-                        <h2 class="text-2xl md:text-5xl lg:text-7xl text-white font-extrabold">Exotic tastes at your doorstep</h2>
-                        <p class="text-sm lg:text-xl text-white font-normal lg:font-medium mt-1 lg:mt-6 mb-4 lg:mb-8">We supply highly quality organic products</p>
-                        <button class="bg-primary-color border-none text-sm lg:text-xl text-white font-bold lg:font-extrabold px-4 py-2 lg:px-7 lg:py-4 rounded-md">Shop Now</button>
+                        <h2 class="text-2xl md:text-5xl lg:text-7xl text-white font-extrabold">Exotic tastes at your
+                            doorstep</h2>
+                        <p class="text-sm lg:text-xl text-white font-normal lg:font-medium mt-1 lg:mt-6 mb-4 lg:mb-8">We
+                            supply highly quality organic products</p>
+                        <button
+                            class="bg-primary-color border-none text-sm lg:text-xl text-white font-bold lg:font-extrabold px-4 py-2 lg:px-7 lg:py-4 rounded-md">Shop
+                            Now</button>
                     </div>
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide3" class="btn-sm lg:btn-md flex items-center justify-center btn-circle bg-black text-white border-none">❮</a>
-                        <a href="#slide1" class="btn-sm lg:btn-md flex items-center justify-center btn-circle bg-black text-white border-none">❯</a>
+                        <a href="#slide3"
+                            class="btn-sm lg:btn-md flex items-center justify-center btn-circle bg-black text-white border-none">❮</a>
+                        <a href="#slide1"
+                            class="btn-sm lg:btn-md flex items-center justify-center btn-circle bg-black text-white border-none">❯</a>
                     </div>
                 </div>
             </div>
         </div>
         <!-- banner bottom section -->
-        <div class="hidden lg:flex absolute bg-white rounded-lg gap-8 py-8 px-8 justify-between -bottom-16 left-48 drop-shadow-xl">
+        <div
+            class="hidden lg:flex absolute bg-white rounded-lg gap-8 py-8 px-8 justify-between -bottom-16 left-48 drop-shadow-xl">
             <div class=" flex flex-col items-center">
                 <img class="w-3/4" src="images/fruit1.png" alt="">
                 <p>Red berry</p>
@@ -181,10 +209,14 @@
         <!-- deal section -->
         <section class="mt-10 lg:mt-40 max-w-screen-xl mx-auto px-5 md:py-5 lg:py-10">
             <div>
-                <div class="flex flex-col md:flex-row justify-center items-center text-center md:text-start md:justify-between">
+                <!-- timer section -->
+                <div
+                    class="flex flex-col md:flex-row justify-center items-center text-center md:text-start md:justify-between">
                     <div class="w-3/4 md:w-1/2">
                         <h2 class="text-xl md:text-5xl font-extrabold">Deal of the day</h2>
-                        <p class="text-sm md:text-base text-text-color font-medium">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                        <p class="text-sm md:text-base text-text-color font-medium">Contrary to popular belief, is not
+                            simply random text. It has roots in a piece of classical Latin literature from 45 BC, making
+                            it over 2000 years old.</p>
                     </div>
                     <div class="flex items-center gap-5 mt-5">
                         <div>
@@ -208,7 +240,81 @@
                         </div>
                     </div>
                 </div>
-                <div></div>
+                <!-- card section -->
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-5 justify-between mt-10">
+                    <!-- card 1 -->
+                    <div class="flex flex-col items-center px-5 py-10 gap-8 border-2 border-gradient-end rounded-lg">
+                        <img class="w-18" src="images/fruit6.png" alt="Apple">
+                        <h3 class="text-2xl text-title-color font-bold pb-8 px-5 border-b-2 border-gradient-end">12.90$ - 18.85$
+                        </h3>
+                        <p class="text-text-color">Apples</p>
+                        <div class="rating text-primary-color">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-primary-color" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-primary-color" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-primary-color" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-primary-color" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-primary-color" />
+                        </div>
+                        <div>
+                            <button class="text-primary-color text-lg">Details</button>
+                        </div>
+                    </div>
+                    <!-- card 2 -->
+                    <div class="flex flex-col items-center px-5 py-10 gap-8 border-2 border-gradient-end rounded-lg">
+                        <img class="w-18" src="images/fruit7.png" alt="Apple">
+                        <h3 class="text-2xl text-title-color font-bold pb-8 px-5 border-b-2 border-gradient-end">12.90$ - 18.85$
+                        </h3>
+                        <p class="text-text-color">Orange</p>
+                        <div class="rating text-primary-color">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-primary-color" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-primary-color" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-primary-color" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-primary-color" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-primary-color" />
+                        </div>
+                        <div>
+                            <button class="text-primary-color text-lg">Details</button>
+                        </div>
+                    </div>
+                    <!-- card 3 -->
+                    <div class="flex flex-col items-center px-5 py-10 gap-8 border-2 border-gradient-end rounded-lg">
+                        <img class="w-18" src="images/fruit8.png" alt="Apple">
+                        <h3 class="text-2xl text-title-color font-bold pb-8 px-5 border-b-2 border-gradient-end">12.90$ - 18.85$
+                        </h3>
+                        <p class="text-text-color">Res Dragon</p>
+                        <div class="rating text-primary-color">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-primary-color" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-primary-color" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-primary-color" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-primary-color" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-primary-color" />
+                        </div>
+                        <div>
+                            <button class="text-primary-color text-lg">Details</button>
+                        </div>
+                    </div>
+                    <!-- card 4 -->
+                    <div class="flex flex-col items-center px-5 py-10 gap-8 border-2 border-gradient-end rounded-lg">
+                        <img class="w-18" src="images/fruit9.png" alt="Apple">
+                        <h3 class="text-2xl text-title-color font-bold pb-8 px-5 border-b-2 border-gradient-end">12.90$ - 18.85$
+                        </h3>
+                        <p class="text-text-color">Banana</p>
+                        <div class="rating text-primary-color">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-primary-color" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-primary-color" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-primary-color" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-primary-color" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-primary-color" />
+                        </div>
+                        <div>
+                            <button class="text-primary-color text-lg">Details</button>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="flex justify-center mt-10">
+                    <button class="bg-primary-color border-none text-sm lg:text-xl text-white font-bold lg:font-extrabold px-4 py-2 lg:px-7 lg:py-4 rounded-md">Shop All</button>
+                </div>
             </div>
         </section>
     </main>
